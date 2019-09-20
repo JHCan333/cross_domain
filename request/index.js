@@ -1,5 +1,4 @@
-
-// import Vue from 'vue'
+// 项目主目录
 import Vue from 'vue/dist/vue.esm.js'
 import App from './App.vue'
 import axios from 'axios'
