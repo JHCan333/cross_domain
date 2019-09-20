@@ -1,0 +1,38 @@
+{
+  "name": "cross_domain",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "node ./response/port3000.js & node ./response/port4000.js & node ./response/port5000.js",
+    "dev-request": "webpack-dev-server --open",
+    "start": "concurrently \"npm run dev-request\" \"npm run dev-server\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JHCan333/cross_domain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JHCan333/cross_domain/issues"
+  },
+  "homepage": "https://github.com/JHCan333/cross_domain#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "concurrently": "^4.1.2",
+    "html-webpack-plugin": "^3.2.0",
+    "opn": "^6.0.0",
+    "path": "^0.12.7",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  }
+}
