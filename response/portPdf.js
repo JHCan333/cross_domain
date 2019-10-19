@@ -10,7 +10,7 @@ app.get('/pdf', (req, res) => {
     res.header('Content-Type', 'application/pdf')
     res.sendFile(path.join(__dirname, './050003521280_33380625.pdf'))
 })
-
+ 
 // 设置 当前程序 监听的 ip,端口号
 app.listen(port, '0.0.0.0', () => console.log('pdf 服务启动成功!'))
 
