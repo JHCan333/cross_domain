@@ -40,7 +40,7 @@ app.get('/port', (req, res) => {
 })
 
 // 设置 当前程序 监听的 ip,端口号
-app.listen(port, '0.0.0.0', () => console.log('Example app listening on port 3000!'))
+app.listen(port, '0.0.0.0', () => console.log('JSONP 服务启动成功！'))
 
 // 打开浏览器，并且指定url。
 var url = 'http://0.0.0.0:' + port + '/port'
