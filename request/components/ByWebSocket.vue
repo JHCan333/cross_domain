@@ -79,7 +79,7 @@
 <script>
     import io from 'socket.io-client'
     // 建立 websocket 连接。本来端口号写的6000，但是谷歌浏览器禁止用 6000，所以改的 6001
-    var socket = io('http://0.0.0.0:6001/')
+    var socket = io('http://localhost:6001/')
     // open 为 server 端，发出的事件，能接收到就代表 websocket 连接成功
     socket.on('open', () => {
         console.log('websocket 连接成功！')

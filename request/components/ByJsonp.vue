@@ -92,7 +92,7 @@
             get5000(ifValid){
                 this.setJavaScriptFunction();// 设置好处理返回值的函数
                 var name = ifValid ? 'lilei' : 'visitor'; // lilei 是合法用户，visitor 是游客，无访问权限
-                var url = "http://0.0.0.0:5000/port?name=" + name +"&pwd=123456&callback=jsonpGetData" // jsonp 的请求链接
+                var url = "http://localhost:5000/port?name=" + name +"&pwd=123456&callback=jsonpGetData" // jsonp 的请求链接
 
                 // 开始 jsonp 请求
                 var script = document.createElement('script');

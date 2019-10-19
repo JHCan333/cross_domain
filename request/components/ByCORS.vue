@@ -59,7 +59,7 @@
         methods:{
             // 前端请求无变化
             get4000(){
-                var url = "http://0.0.0.0:4000/port"
+                var url = "http://localhost:4000/port"
                 this.$http(url).then((res)=>{
                     console.log('res',res)
                     alert('跨域成功')

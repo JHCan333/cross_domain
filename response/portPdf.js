@@ -15,5 +15,5 @@ app.get('/pdf', (req, res) => {
 app.listen(port, '0.0.0.0', () => console.log('pdf 服务启动成功!'))
 
 // 打开浏览器，并且指定url。
-var url = 'http://0.0.0.0:' + port + '/pdf'
+var url = 'http://localhost:' + port + '/pdf'
 opn(url)

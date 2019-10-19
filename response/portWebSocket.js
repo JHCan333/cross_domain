@@ -32,7 +32,7 @@ io.on('connection', socket => {
 server.listen(port)
 
 // 打开浏览器，并且指定url。
-var url = 'http://0.0.0.0:' + port
+var url = 'http://localhost:' + port
 opn(url)
 
 

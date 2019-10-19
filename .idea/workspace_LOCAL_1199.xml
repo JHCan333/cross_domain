@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a43746-48d3-48aa-ae9a-327d8f15a3f4" name="Default" comment="">
-<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/request/components/ByWebSocket.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/response/050003521280_33380625.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/response/iframeTransferStation.html" afterDir="false" />
@@ -16,21 +15,17 @@
       <change beforePath="$PROJECT_DIR$/response/port3000.js" beforeDir="false" afterPath="$PROJECT_DIR$/response/portNormal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/response/port4000.js" beforeDir="false" afterPath="$PROJECT_DIR$/response/portCORS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/response/port5000.js" beforeDir="false" afterPath="$PROJECT_DIR$/response/portJsonp.js" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response/port3000.js" beforeDir="false" afterPath="$PROJECT_DIR$/response/port3000.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response/port4000.js" beforeDir="false" afterPath="$PROJECT_DIR$/response/port4000.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response/port5000.js" beforeDir="false" afterPath="$PROJECT_DIR$/response/port5000.js" afterDir="false" />
->>>>>>> Stashed changes
     </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< Updated upstream
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="portPdf.js" pinned="false" current-in-tab="true">
@@ -53,8 +48,6 @@
       </file>
     </leaf>
   </component>
-=======
->>>>>>> Stashed changes
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -64,10 +57,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get3000</find>
+      <find>3000</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>get4000</replace>
+      <replace>4000</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-<<<<<<< Updated upstream
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -100,20 +102,19 @@
       </list>
     </option>
   </component>
-=======
->>>>>>> Stashed changes
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
     <bower-package value="" />
     <bower.json value="" />
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-<<<<<<< Updated upstream
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -154,9 +155,6 @@
       <pane id="Scope" />
     </panes>
   </component>
-=======
-  <component name="ProjectId" id="1S8k2B5GnbBYaqAxbUOmmuTcbAz" />
->>>>>>> Stashed changes
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -170,13 +168,8 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-<<<<<<< Updated upstream
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
-=======
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
->>>>>>> Stashed changes
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,7 +203,6 @@
       <option name="presentableId" value="Default" />
       <updated>1568900160219</updated>
       <workItem from="1568900161696" duration="2638000" />
-<<<<<<< Updated upstream
       <workItem from="1568943441643" duration="13286000" />
       <workItem from="1569057660252" duration="889000" />
       <workItem from="1569202117640" duration="6149000" />
@@ -610,30 +602,6 @@
         </state>
       </provider>
     </entry>
-=======
-      <workItem from="1568943441643" duration="13129000" />
-      <workItem from="1570952406554" duration="3965000" />
-      <workItem from="1571143267350" duration="235000" />
-      <workItem from="1571469884443" duration="2072000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
->>>>>>> Stashed changes
   </component>
   <component name="masterDetails">
     <states>
