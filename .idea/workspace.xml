@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a43746-48d3-48aa-ae9a-327d8f15a3f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/request/components/ByWebSocket.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/response/050003521280_33380625.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/response/iframeTransferStation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/response/portIframe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/response/portPdf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/response/portWebSocket.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/request/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/request/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response/port3000.js" beforeDir="false" afterPath="$PROJECT_DIR$/response/portNormal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response/port4000.js" beforeDir="false" afterPath="$PROJECT_DIR$/response/portCORS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response/port5000.js" beforeDir="false" afterPath="$PROJECT_DIR$/response/portJsonp.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +25,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="portWebSocket.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/response/portWebSocket.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="portCORS.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/response/portCORS.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="70" />
+              <caret line="11" column="70" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -127,9 +124,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -142,6 +140,17 @@
             <path>
               <item name="cross_domain" type="b2602c69:ProjectViewProjectNode" />
               <item name="cross_domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cross_domain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cross_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cross_domain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cross_domain" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cross_domain" type="b2602c69:ProjectViewProjectNode" />
@@ -209,15 +218,17 @@
       <workItem from="1569246084392" duration="3439000" />
       <workItem from="1569381025733" duration="575000" />
       <workItem from="1569396188513" duration="1877000" />
+      <workItem from="1571471731737" duration="233000" />
+      <workItem from="1571621975380" duration="278000" />
+      <workItem from="1571707572100" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28853000" />
+    <option name="totallyTimeSpent" value="29394000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -553,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/response/portWebSocket.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/response/portJsonp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -591,7 +595,14 @@
     <entry file="file://$PROJECT_DIR$/response/portCORS.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="70" />
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response/portWebSocket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
