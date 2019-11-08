@@ -47,7 +47,7 @@
         methods:{
             // 一个简单的请求，不能跨域
             get3000(){
-                var url = "http://0.0.0.0:3000/port"
+                var url = "http://localhost:3000/port"
                 this.$http(url).then((res)=>{
                     console.log('res',res)
                     alert('跨域成功')

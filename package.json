@@ -4,8 +4,13 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-server": "node ./response/portNormal.js & node ./response/portCORS.js & node ./response/portJsonp.js & node ./response/portWebSocket.js & node ./response/portIframe.js",
     "pdf": "node ./response/portPdf.js",
+    "server-normal": "node ./response/portNormal.js",
+    "server-cors": " node ./response/portCORS.js ",
+    "server-jsonp": "node ./response/portJsonp.js ",
+    "server-websocket": "node ./response/portWebSocket.js",
+    "server-iframe": "node ./response/portIframe.js",
+    "dev-server": "concurrently \"npm run server-normal\" \"npm run server-cors\" \"npm run server-jsonp\" \"npm run server-websocket\" \"npm run server-iframe\" ",
     "dev-request": "webpack-dev-server --open",
     "start": "concurrently \"npm run dev-request\" \"npm run dev-server\" "
   },

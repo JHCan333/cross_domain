@@ -18,8 +18,8 @@ app.all('*', function (req, res, next) {
 // 对外开放的接口
 app.get('/port', (req, res) => res.send('Hello World!'))
 // 监听的端口号
-app.listen(port, '0.0.0.0', () => console.log('CORS服务启动成功！'))
+app.listen(port, () => console.log('CORS服务启动成功！'))
 
 // 打开浏览器，并且指定 url
-var url = 'http://0.0.0.0:' + port + '/port'
+var url = 'http://localhost:' + port + '/port'
 opn(url)
