@@ -22,4 +22,4 @@ app.listen(port, () => console.log('CORS服务启动成功！'))
 
 // 打开浏览器，并且指定 url
 var url = 'http://localhost:' + port + '/port'
-opn(url)
+// opn(url)

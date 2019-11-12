@@ -29,10 +29,10 @@ io.on('connection', socket => {
 })
 
 // 通过 6001 端口监听服务，本来写的是6000，但是谷歌浏览器禁止使用6000端口，所以改的6001
-server.listen(port)
+server.listen(port,() => console.log("websocket服务启动成功！"))
 
 // 打开浏览器，并且指定url。
 var url = 'http://localhost:' + port
-opn(url)
+// opn(url)
 
 

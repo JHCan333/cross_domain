@@ -11,4 +11,4 @@ app.listen(port, '0.0.0.0', () => console.log('iframe 服务启动成功!'))
 
 // 打开浏览器，并且指定url。
 var url = 'http://localhost:' + port + '/html'
-opn(url)
+// opn(url)
