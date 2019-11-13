@@ -3,14 +3,12 @@
         <Header class="cross_header">跨域问题测试平台</Header>
         <Layout>
             <Sider class="cross_sider">
-                <LeftMenu></LeftMenu>
+                <LeftMenu @change-router="(breadcrumb) => {this.breadcrumb = breadcrumb}"></LeftMenu>
             </Sider>
             <Content class="cross_content">
-                <Breadcrumb :style="{margin: '24px 0'}">
-                    <BreadcrumbItem>Home</BreadcrumbItem>
-                    <BreadcrumbItem>Components</BreadcrumbItem>
-                    <BreadcrumbItem>Layout</BreadcrumbItem>
-                </Breadcrumb>
+                <!--<Breadcrumb :style="{margin: '24px 0'}">-->
+                    <!--<BreadcrumbItem>{{breadcrumb}}</BreadcrumbItem>-->
+                <!--</Breadcrumb>-->
                 <div class="cross_">
                     <router-view></router-view>
                 </div>
@@ -29,7 +27,8 @@
         },
         data () {
             return {
-                siderStyle: {}
+                siderStyle: {},
+                breadcrumb:'普通情况'
             }
         }
     }

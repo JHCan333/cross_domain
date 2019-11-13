@@ -1,8 +1,8 @@
 <template>
-    <Menu theme="light" width="auto">
+    <Menu theme="light" width="auto" @on-select="onSelect">
         <template v-for="item in menuData" v-if="menuData.length > 0">
             <Submenu  v-if="item.children && item.children.length > 0"></Submenu>
-            <MenuItem  v-else :name="item.name" :to="item.name">{{item.label}}</MenuItem>
+            <MenuItem  v-else :name="item.label" :to="item.name">{{item.label}}</MenuItem>
         </template>
     </Menu>
 </template>
@@ -15,6 +15,11 @@
         data(){
             return {
                 menuData
+            }
+        },
+        methods:{
+            onSelect(name){
+                this.$emit('change-router',name)
             }
         }
     }
