@@ -40,6 +40,9 @@ let menu = [{
         name : 'jsonp',
         label:'Jsonp跨域'
     },{
+        name : 'imgPing',
+        label:'imgPing跨域'
+    },{
         name : 'webSocket',
         label:'WebSocket跨域'
     },{
