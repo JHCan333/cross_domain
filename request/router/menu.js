@@ -1,9 +1,12 @@
 let menu = [{
+    name:'guide',
+    label:'跨域介绍',
+},{
     name:'cookie',
     label:'cookie 跨域问题',
     children:[{
         name : 'cookieNoSolve',
-        label:'不解决示例'
+        label:'cookie未解决示例'
     },{
         name : 'cookieDomain',
         label:'domain 跨域'
@@ -13,7 +16,7 @@ let menu = [{
     label:'iframe 跨域问题',
     children:[{
         name : 'iframeNoSolve',
-        label:'不解决示例'
+        label:'iframe未解决示例'
     },{
         name : 'fragmentIdentifier',
         label:'片段识别符跨域'
@@ -32,7 +35,7 @@ let menu = [{
     label:'ajax 跨域问题',
     children:[{
         name : 'normal',
-        label:'不解决示例'
+        label:'ajax未解决示例'
     },{
         name : 'cors',
         label:'CORS跨域'

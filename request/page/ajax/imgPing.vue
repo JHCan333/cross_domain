@@ -41,7 +41,7 @@
                 // 对外开放的接口
                 app.get('/port', (req, res) => {
                     counter++
-                    let logInfo = `已浏览广告${counter}次！`
+                    let logInfo = `已点击广告${counter}次！`
                     res.send(logInfo)
                     console.log(logInfo)
                 })

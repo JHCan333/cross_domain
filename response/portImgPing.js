@@ -12,7 +12,7 @@ var counter = 0
 // 对外开放的接口
 app.get('/port', (req, res) => {
     counter++
-    let logInfo = `已浏览广告${counter}次！`
+    let logInfo = `已点击广告${counter}次！`
     res.send(logInfo)
     // 在node运行后台可以看到当前点击次数。
     console.log(logInfo)
