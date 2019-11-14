@@ -5,7 +5,7 @@
 const express = require('express')
 const app = express()
 const opn = require('opn')
-const port = 4000
+const port = require('./portSet')['cors']
 
 // 服务器在返回头中 设置相应的 CORS 字段，就允许跨域请求
 app.all('*', function (req, res, next) {
@@ -18,7 +18,7 @@ app.all('*', function (req, res, next) {
 // 对外开放的接口
 app.get('/port', (req, res) => res.send('Hello World!'))
 // 监听的端口号
-app.listen(port, () => console.log('CORS服务启动成功！'))
+app.listen(port, () => console.log(`CORS服务启动成功！端口号：${port}`))
 
 // 打开浏览器，并且指定 url
 var url = 'http://localhost:' + port + '/port'

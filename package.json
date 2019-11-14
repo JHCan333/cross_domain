@@ -7,6 +7,7 @@
     "server-normal": "node ./response/portNormal.js",
     "server-cors": " node ./response/portCORS.js ",
     "server-jsonp": "node ./response/portJsonp.js ",
+    "server-imgPing": "node ./response/portImgPing.js ",
     "server-websocket": "node ./response/portWebSocket.js",
     "server-iframe": "node ./response/portIframe.js",
     "dev-server": "concurrently \"npm run server-normal\" \"npm run server-cors\" \"npm run server-jsonp\" \"npm run server-websocket\" \"npm run server-iframe\" ",

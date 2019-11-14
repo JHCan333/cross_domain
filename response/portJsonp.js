@@ -5,7 +5,7 @@
 const express = require('express')
 const app = express()
 const opn = require('opn')
-const port = 5000
+const port = require('./portSet')['jsonp']
 
 // 可用的用户列表
 const userList = ['lilei','hanmeimei']
@@ -40,7 +40,7 @@ app.get('/port', (req, res) => {
 })
 
 // 设置 当前程序 监听的 ip,端口号
-app.listen(port, () => console.log('jsonp服务启动成功!!'))
+app.listen(port, () => console.log(`jsonp服务启动成功!端口号：${port}`))
 
 
 // 打开浏览器，并且指定url。

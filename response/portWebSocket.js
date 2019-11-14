@@ -6,7 +6,7 @@ const app = new express()
 const server = require('http').createServer(app)
 const io = require('socket.io')(server)
 const opn = require('opn')
-const port = 6001
+const port = require('./portSet')['websocket']
 
 // 对外开放的接口
 app.all('*', (req, res) => res.send('Hello World!'))
@@ -29,7 +29,7 @@ io.on('connection', socket => {
 })
 
 // 通过 6001 端口监听服务，本来写的是6000，但是谷歌浏览器禁止使用6000端口，所以改的6001
-server.listen(port,() => console.log("websocket服务启动成功！"))
+server.listen(port,() => console.log(`websocket服务启动成功！端口号：${port}`))
 
 // 打开浏览器，并且指定url。
 var url = 'http://localhost:' + port

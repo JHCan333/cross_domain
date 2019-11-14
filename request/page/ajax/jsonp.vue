@@ -5,7 +5,9 @@
     <div>
         <h2>通过 Jsonp 解决跨域问题 </h2>
         <div class="cross-mode-introduce">
-            <p>因为html的script标签的src属性，在同源问题上是个例外，所以可以利用这个特性，来处理跨域问题</p>
+            <p>因为html的script标签的src属性，在同源问题上是个例外。所以可以利用src，向指定URL发出请求。</p>
+            <p>而返回的数据是插入文档的js代码,前后端约定好定义函数名称的字段，后端会把函数名称以及返回值拼接成js函数加载到文档中来运行。</p>
+            <p>和图像ping相比，需要把此标签放入文档中运行。而图像ping则不需要。</p>
         </div>
         <div class="cross-code-box">
             <h3>前端代码如下</h3>
