@@ -33,7 +33,7 @@
                             }
                         `;
                         document.getElementsByTagName('head')[0].appendChild(script)
-                        // 使用Vue组件内部的方法替换掉 window 中的 showAjaxInfo。注意 that 的指向问题。
+                        // 使用Vue组件内部的方法替换掉 window 中的 showAjaxInfo。注意 this 的指向问题。
                         let that = this
                         window.showAjaxInfo = function(res){
                             if(res.success){
@@ -127,7 +127,7 @@
                     }
                 `;
                 document.getElementsByTagName('head')[0].appendChild(script)
-                // 使用Vue组件内部的方法替换掉 window 中的 showAjaxInfo。注意 that 的指向问题。
+                // 使用Vue组件内部的方法替换掉 window 中的 showAjaxInfo。注意 this 的指向问题。
                 let that = this
                 window.showAjaxInfo = function(res){
                     if(res.success){
