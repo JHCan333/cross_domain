@@ -1,12 +1,9 @@
-
 // 代码组合
-.cross-code-group {
-
-}
+.cross-code-group {}
 
 // 代码区域 盒子
 .cross-code-box {
-  padding-top:30px;
+  padding-top: 30px;
 }
 
 // 代码区域
@@ -16,10 +13,11 @@
 
 // btn 组合
 .cross-btn-group {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 // 跨域方式介绍
 .cross-mode-introduce {
-  padding-top:20px;
+  padding-top: 20px;
 }
